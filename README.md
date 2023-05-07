@@ -1,4 +1,9 @@
 # PatProjects
+[<div id="badges">
+  <a href="your-linkedin-URL">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</div>](https://img.shields.io/github/repo-size/zakotniuk/PatProjects)
 my pat projects
 ### :hammer_and_wrench: Languages and Tools :
 <div>
