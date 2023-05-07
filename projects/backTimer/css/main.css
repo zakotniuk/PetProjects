@@ -1,0 +1,129 @@
+html, *{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+	color: white;
+	font-family: 'Inter';
+	background: linear-gradient(247.1deg, rgba(50, 107, 255, 0.986483) 0%, rgba(255, 56, 104, 0.986483) 100%);
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	font-size: 2.6vh;
+	padding: 15px 0px;
+	border-bottom: 1px solid hsla(0, 0%, 100%, 0.459);
+}
+
+
+.content{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.wrapper{
+	padding: 10px;
+	display: block;
+	margin-top: 100px;
+	text-align: center;
+}
+
+h3{
+	margin: 0px;
+	margin-bottom: 10px;
+	font-size: 7.4vh;
+	font-weight: 300;
+}
+
+.backtimer{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.backtimer > div{
+	display: block;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.time, .separator{
+	font-size: 9.6vh;
+	margin-right: 10px;
+	font-weight: 300;
+}
+
+.text{
+	font-size: 2.4vh;
+	font-weight: 300;
+}
+
+.selectDate{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+a.idBack {
+	position: fixed;
+	z-index: 9999;
+	text-decoration: none;
+	text-align: center;
+	background: #ffffff7b; 
+	opacity: .5; 
+	color: #fff; 
+	padding: 5px 10px;
+	margin: 15px;
+	border-radius: 50px;
+}
+
+a.idBack:hover {
+	opacity: 1;
+} 
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 1200px) {
+	h3{
+	font-size: 5.4vh;
+	}
+	.time, .separator{
+	font-size: 8.6vh;
+	}
+	.text{
+	font-size: 2.4vh;
+	
+	}
+} 
+/* Landscape phones and portrait tablets */
+@media (max-width: 700px) {
+ 	h3{
+		font-size: 4.4vh;
+	}
+	.time, .separator{
+		font-size: 7.6vh;
+	}
+	.text{
+		font-size: 1.4vh;
+	
+	}
+}
+ 
+/* Landscape phones and smaller */
+@media (max-width: 500px) {
+ 	h3{
+		font-size: 3.4vh;
+	}
+	.time, .separator{
+		font-size: 5.6vh;
+	}
+	.text{
+		font-size: 1.4vh;
+	
+	}
+}
