@@ -10,13 +10,3 @@ My pet-projects
    <img src="https://github.com/devicons/devicon/blob/master/icons/webpack/webpack-original.svg" title="Webpack" alt="Webpack" width="40" height="40"/>&nbsp;
   
 </div>
-
-
-- PetProjects
--- index.html
--- projects
---- toDoList
----- index.html
---- weather
----- dist
------ index.html
