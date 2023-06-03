@@ -11,3 +11,12 @@ My pet-projects
   
 </div>
 
+
+-PetProjects
+--index.html
+--projects
+---toDoList
+----index.html
+---weather
+----dist
+-----index.html
