@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* @import img2 url() */
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #cae4ff;
+}
+
+.main {
+  height: 55vh;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  background: #e5e5e5;
+  border-radius: 2em;
+  box-shadow: 0px 2px 80px -20px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  background: url(./img/img2.jpg) center center no-repeat;
+  background-blend-mode: hard-light;
+  background-color: #484747;
+  background-size: cover;
+  border-radius: 2em;
+}
+
+.form {
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  width: 40%;
+  padding-bottom: 5px;
+  color: #041f3c;
+  font-weight: lighter;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  outline: none;
+  border: 0;
+  border-bottom: solid 2px #113a65;
+}
+
+input::-webkit-input-placeholder {
+  color: #103a65;
+}
+
+input::-moz-placeholder {
+  color: #103a65;
+}
+
+button {
+  border: 2px solid #103a65;
+  height: 50px;
+  width: 40%;
+  min-width: 160px;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #235d9c;
+  color: #fff;
+}
+
+button:hover {
+  position: relative;
+  color: #235d9c;
+  border-bottom: 2px solid #103a65;
+  background-color: transparent;
+  transition: .4s ease-out;
+}
+
+button:active {
+  top: 2px;
+}
+
+.info h2 {
+  font-size: 3em;
+  color: #fff;
+}
+
+.info p {
+  color: #e4e4e4;
+  font-weight: bold;
+}
+
+.infoWeath {
+  width: 80%;
+  font-size: 20px;
+  color: #041f3c;
+}
+
+.form p{
+  font-size: 14px;
+}
+
+.error {
+  color: #041f3c;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media all and (max-width: 1200px) {
+  .main {
+    width: 70%;
+  }
+
+}
+
+@media (max-width: 950px) {
+  .main {
+    width: 80%;
+  }
+  
+
+}
+
+@media (max-width: 750px) {
+  .main {
+    flex-direction: column;
+    width: 80%;
+    height: 70vh;
+  }
+
+  .info {
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .form{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  
+}
+
+@media (max-width: 570px) {
+  .main {
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+  }
+
+}
+
+@media (max-width: 470px) {
+  .main {
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+  }
+  button{
+    min-width: 100px;
+    padding: 8px 5px;
+    font-size: 12px;
+  }
+
+}
