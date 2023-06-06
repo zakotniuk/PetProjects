@@ -12,4 +12,5 @@ http://i66527pg.beget.tech/index.html <- My pet-projects
 
 
 
-![Image alt](https://github.com/zakotniuk/Images-Hub/raw/main/images/ReactWeather.png)
+![Image alt](https://github.com/zakotniuk/Images-Hub/blob/main/ReactWeather.png)
+https://github.com/zakotniuk/Images-Hub/blob/main/ReactWeather.png
